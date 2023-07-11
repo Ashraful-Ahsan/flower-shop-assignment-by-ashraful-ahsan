@@ -76,6 +76,105 @@
 
 /* flower header end*/
 
+/* flower flower section design start */
+
+.featured-flower {
+  background: #fff;
+  padding: 50px;
+  text-align: center;
+}
+
+.featured-container {
+  margin-bottom: 20px;
+}
+
+.featured-title {
+  color: #272727;
+  text-align: center;
+
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 15px;
+}
+
+.featured-desc {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+}
+
+.card-component {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  position: relative;
+  width: 250px;
+  height: 300px;
+  border-radius: 50%;
+  margin: 0 15px;
+  border-radius: 50% 50% 0 0;
+  overflow: hidden;
+  
+}
+
+#card-1 {
+  background: rgba(167, 33, 98, 0.15);
+}
+#card-2 {
+  background: rgba(5, 151, 160, 0.15);
+}
+#card-3 {
+  background: rgba(71, 125, 17, 0.15);
+}
+
+.card .card-image {
+  width: 100%;
+  height: auto;
+  width: 200px;
+  object-fit: contain;
+  position: absolute;
+  /* left: 20px;
+  bottom: 0px; */
+
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-45%);
+
+
+  
+  
+}
+
+.card-text {
+  margin-top: 10px;
+}
+
+.card-text a {
+  color: #272727;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px;
+}
+
+/* flower flower section design start */
+
 /* hot deal section design start */
 
 .hot-deal {
