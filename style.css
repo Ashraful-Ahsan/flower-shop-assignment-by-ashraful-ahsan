@@ -19,7 +19,7 @@
   font-weight: 400;
   line-height: normal;
   border: none;
-  
+
   padding: 13px 30px;
 }
 
@@ -130,7 +130,6 @@
   height: 470px;
   width: 1422px;
   margin: 0 auto;
-  
 }
 
 .insta-title {
@@ -169,10 +168,9 @@
   margin-right: 20px;
 }
 
-/*deal-message */
+/*deal-message section start*/
 
 .insta-message {
-  
   margin: 0 auto;
   width: 1422px;
   height: 290px;
@@ -219,14 +217,58 @@
   border: none;
 }
 
-.deal-message-title{
+.deal-message-title {
   margin-bottom: 10px;
 }
 
-.deal-message-desc{
+.deal-message-desc {
   margin-bottom: 35px;
 }
 
 .email-us {
   margin-right: 10px;
 }
+
+/* footer section design start */
+
+.footer-section {
+  width: 100%;
+  background: #111010;
+  margin: 100px auto 0;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+}
+
+.footer-title {
+  color: #ffffff;
+
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.footer-desc {
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.copy-right {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+/* footer section design end */
