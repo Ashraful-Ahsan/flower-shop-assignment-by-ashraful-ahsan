@@ -76,7 +76,7 @@
 
 /* flower header end*/
 
-/* flower flower section design start */
+/* featured flower section design start */
 
 .featured-flower {
   background: #fff;
@@ -129,7 +129,6 @@
   margin: 0 15px;
   border-radius: 50% 50% 0 0;
   overflow: hidden;
-  
 }
 
 #card-1 {
@@ -153,15 +152,12 @@
 
   left: 50%;
   top: 50%;
-  transform: translate(-50%,-45%);
-
-
-  
-  
+  transform: translate(-50%, -45%);
 }
 
 .card-text {
   margin-top: 10px;
+  margin-bottom: 100px;
 }
 
 .card-text a {
@@ -173,7 +169,34 @@
   line-height: 35px;
 }
 
-/* flower flower section design start */
+.contact-flower {
+  display: flex;
+  width: 780px;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  padding: 20px;
+  height: 250px;
+
+}
+
+.support{
+  width: 60px;
+}
+.contact-desc{
+  color: rgba(39, 39, 39, 0.80);
+text-align: center;
+
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 35px;
+margin-top: 7px;
+}
+
+/* featured flower section design end */
 
 /* hot deal section design start */
 
